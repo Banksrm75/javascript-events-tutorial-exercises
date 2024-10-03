@@ -1,9 +1,5 @@
 // Your function goes here
-
-let finishedPage = document.getElementsByTagName("body");
-
 function loadListener() {
-    alert("Loading finished...");
-};
+    alert("Page has loaded")
+}
 
-finishedPage.addEventListener("load", loadListener);
